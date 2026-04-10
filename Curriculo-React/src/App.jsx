@@ -16,13 +16,13 @@ export default function App() {
       <nav className="nav">
         <div className="nav-inner">
           <button className="nav-link" onClick={() => scrollTo('apresentacao')}>Vinícius dos Santos</button>
-          <button className="nav-link" onClick={() => scrollTo('resumo')}>Sobre</button>
-          <button className="nav-link" onClick={() => scrollTo('experiencia')}>Experiência</button>
-          <button className="nav-link" onClick={() => scrollTo('formacao')}>Formação</button>
-          <button className="nav-link" onClick={() => scrollTo('habilidades')}>Habilidades</button>
-          <button className="nav-link" onClick={() => scrollTo('projetos')}>Projetos</button>
-          <button className="nav-link" onClick={() => scrollTo('idiomas')}>Idiomas</button>
-          <button className="nav-link" onClick={() => scrollTo('contato')}>Contato</button>
+          <button className="nav-link" onClick={() => scrollTo('resumo')}>About</button>
+          <button className="nav-link" onClick={() => scrollTo('experiencia')}>Experience</button>
+          <button className="nav-link" onClick={() => scrollTo('formacao')}>Education</button>
+          <button className="nav-link" onClick={() => scrollTo('habilidades')}>Skills</button>
+          <button className="nav-link" onClick={() => scrollTo('projetos')}>Projects</button>
+          <button className="nav-link" onClick={() => scrollTo('idiomas')}>Languages</button>
+          <button className="nav-link" onClick={() => scrollTo('contato')}>Contact</button>
         </div>
       </nav>
 
@@ -30,10 +30,10 @@ export default function App() {
 
         {/* ── PERSONAL INFO ── */}
         <section id="apresentacao" className="section hero">
-          <img src="/icon.png" alt="Foto de perfil" className="foto" />
+          <img src="/icon.png" alt="Profile photo" className="foto" />
           <div className="hero-text">
             <h1 className="title">Vinícius dos Santos Oliveira</h1>
-            <p className="subtitle">Desenvolvedor Júnior · QA</p>
+            <p className="subtitle">Junior Developer · QA</p>
             <div className="contact-grid">
               <span>📧 <a href="mailto:viniciuscontato2024@gmail.com">viniciuscontato2024@gmail.com</a></span>
               <span>📞 <a href="tel:+5581998777963">(81) 9 9877-7963</a></span>
@@ -48,11 +48,11 @@ export default function App() {
 
         {/* ── PROFESSIONAL SUMMARY ── */}
         <section id="resumo" className="section">
-          <h2 className="section-title">Sobre</h2>
+          <h2 className="section-title">About</h2>
           <p className="paragraph">
-            Busco oportunidade como <strong>Desenvolvedor Júnior</strong>. Procuro contribuir no setor ao me
-            desenvolver profissionalmente, atualmente estou me aprimorando em <strong>Java</strong> e{' '}
-            <strong>Qualidade de Software</strong>.
+            I am seeking an opportunity as a <strong>Junior Developer</strong>. I aim to contribute to the
+            team while growing professionally, and I am currently improving my skills in <strong>Java</strong>{' '}
+            and <strong>Software Quality</strong>.
           </p>
         </section>
 
@@ -60,68 +60,35 @@ export default function App() {
 
         {/* ── WORK EXPERIENCE ── */}
         <section id="experiencia" className="section">
-          <h2 className="section-title">Experiência Profissional</h2>
+          <h2 className="section-title">Professional Experience</h2>
 
           <div className="card">
             <div className="card-header">
-              <span className="card-title">Estágio em QA</span>
+              <span className="card-title">QA Intern</span>
               <span className="card-company">CWI Software</span>
-              <span className="card-period">08/2025 — Atual</span>
+              <span className="card-period">08/2025 — Present</span>
             </div>
             <div className="tags">
-              <span className="tag">Testes Automatizados</span>
+              <span className="tag">Automated Testing</span>
               <span className="tag">Playwright</span>
               <span className="tag">Robot Framework</span>
-              <span className="tag">Testes Manuais</span>
+              <span className="tag">Manual Testing</span>
             </div>
             <p className="paragraph">
-              Desenvolver e executar casos de teste. Desenvolver automação de testes utilizando frameworks.
+              Develop and execute test cases. Build test automation using frameworks.
             </p>
           </div>
 
-          <div className="card">
-            <div className="card-header">
-              <span className="card-title">Residência Tecnológica</span>
-              <span className="card-company">Empresa SIDI</span>
-              <span className="card-period">08/2025 — 10/2025</span>
-            </div>
-            <div className="tags">
-              <span className="tag">Java</span>
-              <span className="tag">SpringBoot</span>
-              <span className="tag">React</span>
-            </div>
-            <ul className="list">
-              <li>
-                <strong>Plataforma de Gestão Habitacional de Recife:</strong> desenvolvimento full-stack em grupo
-                onde fomos desafiados a criar uma solução inovadora para um problema social pertinente.
-              </li>
-              <li>
-                <strong>Sistema de Ponto:</strong> criação em grupo de um sistema que permite aos funcionários
-                registrar entrada e saída, corrigir registros e justificar faltas. (React)
-              </li>
-            </ul>
-          </div>
-
-          <div className="card">
-            <div className="card-header">
-              <span className="card-title">Capacitação Java</span>
-              <span className="card-company">Rede Cidadã</span>
-              <span className="card-period">12/2024 — 04/2025</span>
-            </div>
-            <p className="paragraph">
-              Programa de capacitação profissional com foco em desenvolvimento Java.
-            </p>
-          </div>
         </section>
 
         <hr className="divider" />
 
         {/* ── EDUCATION ── */}
         <section id="formacao" className="section">
-          <h2 className="section-title">Formação Acadêmica</h2>
+          <h2 className="section-title">Education</h2>
           <div className="card">
             <div className="card-header">
-              <span className="card-title">Tecnólogo em Análise e Desenvolvimento de Sistemas</span>
+              <span className="card-title">Associate Degree in Systems Analysis and Development</span>
               <span className="card-company">SENAC Recife</span>
               <span className="card-period">2024 — 2026</span>
             </div>
@@ -132,10 +99,10 @@ export default function App() {
 
         {/* ── SKILLS ── */}
         <section id="habilidades" className="section">
-          <h2 className="section-title">Habilidades</h2>
+          <h2 className="section-title">Skills</h2>
           <div className="skills-columns">
             <div>
-              <h3 className="skills-subtitle">Técnicas</h3>
+              <h3 className="skills-subtitle">Technical</h3>
               <div className="tags">
                 <span className="tag">Java</span>
                 <span className="tag">SpringBoot</span>
@@ -146,20 +113,20 @@ export default function App() {
                 <span className="tag">MySQL</span>
                 <span className="tag">Playwright</span>
                 <span className="tag">Robot Framework</span>
-                <span className="tag">Testes Automatizados</span>
-                <span className="tag">Metodologias Ágeis</span>
-                <span className="tag">Engenharia de Requisitos</span>
+                <span className="tag">Automated Testing</span>
+                <span className="tag">Agile Methodologies</span>
+                <span className="tag">Requirements Engineering</span>
               </div>
             </div>
             <div>
-              <h3 className="skills-subtitle">Comportamentais</h3>
+              <h3 className="skills-subtitle">Behavioral</h3>
               <div className="tags">
-                <span className="tag soft">Proatividade</span>
-                <span className="tag soft">Comunicação</span>
-                <span className="tag soft">Resiliência</span>
-                <span className="tag soft">Autodidata</span>
-                <span className="tag soft">Liderança</span>
-                <span className="tag soft">Trabalho em Equipe</span>
+                <span className="tag soft">Proactivity</span>
+                <span className="tag soft">Communication</span>
+                <span className="tag soft">Resilience</span>
+                <span className="tag soft">Self-taught</span>
+                <span className="tag soft">Leadership</span>
+                <span className="tag soft">Teamwork</span>
               </div>
             </div>
           </div>
@@ -169,12 +136,19 @@ export default function App() {
 
         {/* ── CERTIFICATIONS & COURSES ── */}
         <section id="certificacoes" className="section">
-          <h2 className="section-title">Certificações &amp; Cursos</h2>
+          <h2 className="section-title">Certifications &amp; Courses</h2>
           <div className="card">
             <div className="card-header">
-              <span className="card-title">Capacitação em Java</span>
+              <span className="card-title">Java Training Program</span>
               <span className="card-company">Rede Cidadã</span>
               <span className="card-period">12/2024 — 04/2025</span>
+            </div>
+          </div>
+          <div className="card">
+            <div className="card-header">
+              <span className="card-title">Quality Engineering Program</span>
+              <span className="card-company">CWI Software</span>
+              <span className="card-period">06/2026 — 22/2026</span>
             </div>
           </div>
         </section>
@@ -183,47 +157,54 @@ export default function App() {
 
         {/* ── PROJECTS / PORTFOLIO ── */}
         <section id="projetos" className="section">
-          <h2 className="section-title">Experiências Acadêmicas &amp; Projetos</h2>
+          <h2 className="section-title">Academic Experience &amp; Projects</h2>
 
           <div className="card highlight">
             <div className="card-header">
-              <span className="card-title">🏆 Hackaton — Hacker Cidadão 13.0</span>
+              <span className="card-title">🏆 Hackathon — Hacker Cidadão 13.0</span>
               <span className="card-period">05/2025</span>
             </div>
             <p className="paragraph">
-              <strong>Projeto Vencedor:</strong> desenvolvimento em grupo de uma solução tecnológica premiada no
-              Hacker Cidadão 13.0, com foco em limpeza urbana e cidades inteligentes, como parte dos desafios
-              públicos do 3º Ciclo de Inovação Aberta do EITA! Recife.
+              <strong>Winning Project:</strong> team development of an award-winning technological solution at
+              Hacker Cidadão 13.0, focused on urban cleaning and smart cities, as part of the public
+              challenges of the 3rd Open Innovation Cycle by EITA! Recife.
             </p>
           </div>
 
           <div className="card">
             <div className="card-header">
-              <span className="card-title">Plataforma de Gestão Habitacional de Recife</span>
-              <span className="card-company">Residência SIDI</span>
+              <span className="card-title">Habita Recife</span>
+              <span className="card-company">Rede cidadã</span>
+              <span className="card-period">12/2024 — 04/2025</span>
             </div>
             <div className="tags">
               <span className="tag">Java</span>
               <span className="tag">SpringBoot</span>
               <span className="tag">React</span>
             </div>
-            <p className="paragraph">
-              Desenvolvimento full-stack em grupo de uma solução inovadora para gestão dos conjuntos habitacionais
-              de Recife.
-            </p>
+            <ul className="list">
+              <li>
+                <strong>Recife Housing Management Platform:</strong> group full-stack development where we were
+                challenged to create an innovative solution for a relevant social problem.
+              </li>
+              <li>
+                <strong>Time Tracking System:</strong> group development of a system that allows employees to
+                register clock-in and clock-out times, correct records, and justify absences. (React)
+              </li>
+            </ul>
           </div>
 
           <div className="card">
             <div className="card-header">
-              <span className="card-title">Sistema de Ponto Eletrônico</span>
+              <span className="card-title">Electronic Time Tracking System</span>
               <span className="card-company">Residência SIDI</span>
             </div>
             <div className="tags">
               <span className="tag">React</span>
             </div>
             <p className="paragraph">
-              Sistema que permite aos funcionários registrar entrada e saída, corrigir registros e justificar
-              faltas.
+              System that allows employees to register clock-in and clock-out times, correct records, and
+              justify absences.
             </p>
           </div>
         </section>
@@ -232,10 +213,10 @@ export default function App() {
 
         {/* ── LANGUAGES ── */}
         <section id="idiomas" className="section">
-          <h2 className="section-title">Idiomas</h2>
+          <h2 className="section-title">Languages</h2>
           <div className="card">
-            <p className="paragraph">🇧🇷 <strong>Português</strong> — Nativo</p>
-            <p className="paragraph">🇺🇸 <strong>Inglês</strong> — Intermediário</p>
+            <p className="paragraph">🇧🇷 <strong>Portuguese</strong> — Native</p>
+            <p className="paragraph">🇺🇸 <strong>English</strong> — Intermediate</p>
           </div>
         </section>
 
@@ -243,21 +224,21 @@ export default function App() {
 
         {/* ── CONTACT FORM ── */}
         <section id="contato" className="section">
-          <h2 className="section-title">Contato</h2>
-          <p className="paragraph">Preencha o formulário para entrar em contato:</p>
+          <h2 className="section-title">Contact</h2>
+          <p className="paragraph">Fill out the form to get in touch:</p>
           <form className="form" onSubmit={(e) => e.preventDefault()}>
             <div className="form-row">
-              <input className="input" name="nome" placeholder="Nome*" value={form.nome} onChange={handleChange} required />
-              <input className="input" name="sobrenome" placeholder="Sobrenome*" value={form.sobrenome} onChange={handleChange} required />
+              <input className="input" name="nome" placeholder="First name*" value={form.nome} onChange={handleChange} required />
+              <input className="input" name="sobrenome" placeholder="Last name*" value={form.sobrenome} onChange={handleChange} required />
             </div>
             <div className="form-row">
               <input className="input" name="email" type="email" placeholder="Email*" value={form.email} onChange={handleChange} required />
-              <input className="input" name="telefone" type="tel" placeholder="Telefone*" value={form.telefone} onChange={handleChange} required />
+              <input className="input" name="telefone" type="tel" placeholder="Phone*" value={form.telefone} onChange={handleChange} required />
             </div>
-            <textarea className="input textarea" name="mensagem" placeholder="Mensagem" rows={4} value={form.mensagem} onChange={handleChange} />
+            <textarea className="input textarea" name="mensagem" placeholder="Message" rows={4} value={form.mensagem} onChange={handleChange} />
             <div className="form-buttons">
-              <button type="button" className="btn btn-clear" onClick={handleClear}>Limpar</button>
-              <button type="submit" className="btn btn-send">Enviar</button>
+              <button type="button" className="btn btn-clear" onClick={handleClear}>Clear</button>
+              <button type="submit" className="btn btn-send">Send</button>
             </div>
           </form>
         </section>
@@ -265,7 +246,7 @@ export default function App() {
       </main>
 
       <footer className="footer">
-        <p>Copyright © 2025 Vinícius dos Santos Oliveira. Todos os Direitos Reservados.</p>
+        <p>Copyright © 2025 Vinícius dos Santos Oliveira. All Rights Reserved.</p>
       </footer>
     </div>
   );
